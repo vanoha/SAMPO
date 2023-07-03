@@ -12,5 +12,7 @@ SAMPO
    :caption: Contents:
 
    {% for page in pages %}
+   {% if page.name not in ('sampo') %}
    {{ page.include_path }}
+   {% endif %}
    {% endfor %}

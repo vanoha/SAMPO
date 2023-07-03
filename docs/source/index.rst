@@ -11,6 +11,6 @@ SAMPO
    :maxdepth: 1
    :caption: Contents:
 
-   Install
-   Features
-   Usage
+   {% for page in pages %}
+   {{ page.include_path }}
+   {% endfor %}

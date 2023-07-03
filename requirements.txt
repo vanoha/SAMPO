@@ -22,6 +22,7 @@ blurb
 
 sphinx-lint==0.6.7
 sphinxext-opengraph==0.7.5
+sphinx-autoapi=2.1.1
 
 # The theme used by the documentation is stored separately, so we need
 # to install that as well.

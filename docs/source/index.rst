@@ -11,3 +11,6 @@ SAMPO
    :maxdepth: 1
    :caption: Contents:
 
+   Install
+   Features
+   Usage

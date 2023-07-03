@@ -101,7 +101,7 @@ html_css_files = [
 # noinspection PyUnusedLocal
 def autoapi_skip_members(app, what, name, obj, skip, options):
     # skip submodules
-    if name in ('average_binary_search', 'setup', 'sampo'):
+    if name in ('average_binary_search', 'setup'):
         skip = True
     return skip
 
